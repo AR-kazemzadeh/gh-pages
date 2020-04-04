@@ -1,0 +1,273 @@
+body{
+
+font-family: 'Nunito Sans', sans-serif;
+background-color: #5b5b5b;
+}
+.bg{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../assets/wall.jpg);
+    background-size: cover;
+}
+#vcard{
+    margin-top: -35vh;
+    background-color: #212529;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+    border-radius: 8px;
+}
+.workcard{
+    padding: 5px;
+    background-color: #212529;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+    border-radius: 8px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.workcard:hover{
+    transform: scale(1.05);
+    cursor: default;
+}
+
+#vcard-footer{
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+}
+.devider{
+    width: 100%;
+    height: 6px;
+    background-color: rgb(118, 205, 226);
+}
+
+.title{
+    font-weight: normal;
+
+font-size: xx-large;
+}
+.white{
+    color: white;
+}
+.rowtitle{
+    color: #c9bd9e;
+    margin-top: 12px;
+
+
+font-weight: bolder;
+
+font-size: larger;
+
+letter-spacing: 3px;
+}
+.profile{
+    width: inherit;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.downloadcv{
+    background-image: linear-gradient(to right, #D1913C 0%, rgb(209, 162, 101) 100%);
+    box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 5px;
+        padding-top: 5px;
+    text-align: center;
+    margin-right: 30px;;
+    width: 160px;
+    margin-left: auto;
+    height: 48px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    border-radius: 50px;
+    
+    padding-top: 12px;
+}
+.downloadcv:hover{
+ transform: scale(1.05);
+ box-shadow: 0 0px 0px #fcddb5, 0 0px 0px #ecbb7b;
+ cursor: pointer;
+}
+.rowitem{
+    background-color: #323232; 
+    margin-top: 7vh;
+    color: #C9BD9E;
+}
+.bgc{
+    background-color: #323232; 
+}
+
+.downloadcv:focus{
+    box-shadow: 0 0 0 2px rgba(2,117,216,.25);
+}
+.padding15{
+    padding: 15px;
+}
+.padding5{
+    padding: 5px;
+}
+.mgt15{
+    margin-top: 15px;
+}
+.mgt30{
+    margin-top: 30px;
+}
+.mgt60{
+    margin-top: 60px;
+}
+.mgt50{
+    margin-top: 50px;
+}
+.mgl15{
+    margin-left: 15px;
+}
+
+/* Element | http://localhost/git/Adelghaenian/# */
+
+.title {
+    color: white;
+  }
+  
+  /* Element | http://localhost/git/Adelghaenian/# */
+  
+  .mgt50 > h4:nth-child(2) {
+    color: rgb(168, 155, 120);
+  }
+  
+  /* Element | http://localhost/git/Adelghaenian/ */
+  
+  .mgt50 > hr:nth-child(3) {
+    /* color: ; */
+    background-color: #5f5c5c;
+  }
+  
+  /* Element | http://localhost/git/Adelghaenian/ */
+  
+  .mgt50 {
+    color: rgb(209, 209, 209);
+  }
+  .secondcolor {
+    color: rgb(209, 209, 209);
+  }
+  .colorprimary {
+    color: #c9bd9e;
+  }
+  .colorprimarybg {
+    background-color: #c9bd9e;
+  }
+  /* Element | http://localhost/git/Adelghaenian/ */
+  
+  .col-md-7 > hr:nth-child(2) {
+    background-color: gray;
+  }
+  
+  /* main.css | http://localhost/git/Adelghaenian/css/main.css */
+  
+  .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  cursor: default;
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+    min-width: 300px;
+  background-image: url(../assets/dev.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+    min-width: 300px;
+   background-image: url(../assets/design.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+    min-width: 300px;
+   background-image: url(../assets/msc.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+.circular-profile-img{
+    display: none;
+}
+.profile{
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+    .downloadcv{
+        margin-bottom: 15px;
+    }
+    .profile{
+        display: none;
+    }
+    .mgl30{
+        margin-left: 8px;
+    }
+    .mgl50{
+        margin-left: 20px;
+    }
+    .mgl70{
+        margin-left: 40px;
+    }
+    .mgl90{
+        margin-left: 60px;
+    }
+    .profile-img{
+        display: none;
+    }
+    .circular-profile-img{
+        display: block;
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+    }
+    .image-cropper {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .centerize{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .container-first {
+        padding-top: 5px;
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
+        box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
+        background-color: white;
+    }
+}
